@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 
 const admin = require("firebase-admin");
 
-const serviceAccount = require("./dnsmokeapikey.json");
+const serviceAccount = require("../dnsmokeapikey.json");
 const sequelize = require("firestore-sequelize");
 
 sequelize.initializeApp(admin);
